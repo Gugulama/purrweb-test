@@ -1,0 +1,173 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.modal--show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__content {
+    position: relative;
+    width: 417px;
+    padding: 40px;
+    background-color: var(--grayscale-07);
+    border-radius: 20px;
+}
+
+.modal__dialog {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.modal__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    rotate: 45deg;
+    cursor: pointer;
+}
+
+.modal__close::after {
+    content: '+';
+    color: var(--grayscale-03);
+    font-size: 30px;
+    line-height: 1em;
+}
+
+.modal__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modal__form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.modal__form-label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.modal__form-label--reqired::after {
+    content: "*";
+    color: var(--additional-02)
+}
+
+.modal__form-input-container {
+    padding: 10px 16px;
+    border: 1px solid #f1f1f1;
+    border-radius: 14px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.modal__form-input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--grayscale-00);
+}
+
+.modal__form-input::placeholder {
+    color: #A7A7A7;
+}
+
+.modal__form-message {
+    display: none;
+    color: var(--additional-02);
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.modal__aggreement {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.modal__form-field #phone::before{
+    content: "AD";
+    display: block;
+    width: 100px;
+    background-image: url('/first/media/img/flag-usa.png');
+    height: 100px;
+}
+
+.modal__success {
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.modal__success-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: normal;
+
+    color: var(--primary-02);
+}
+    
+.modal__success-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+
+    color: var(--grayscale-02);
+}
+
+.modal__success .button {
+    width: 100%;
+}
+
+.modal__form-input-container--invalid {
+    border-color: var(--additional-02);
+}
+
+.modal__form-input-container ~ p {
+    display: none;
+    
+    color: var(--additional-02);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.modal__form-input-container--invalid ~ p {
+    display: block;
+}
+
+@media (max-width: 1440px) {
+    .modal__content {
+        width: 335px;
+        padding: 20px 16px;
+    }
+}

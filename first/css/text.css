@@ -1,0 +1,18 @@
+.marked-text {
+    position: relative;
+    text-wrap: nowrap;
+}
+
+.marked-text::after {
+    content: "";
+    z-index: -1;
+    width: 105%;
+    height: 80%;
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: -2%;
+    background-color: var(--primary-02);
+    border-radius: 30px;
+    rotate: -1.69deg;
+}

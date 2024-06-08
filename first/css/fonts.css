@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "Outfit";
+    src: url("../vendor/fonts/Outfit.ttf");
+}
+
+
+/* --- Title --- */
+
+.T1_Bold_128 {
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 106%;
+}
+
+.T2_Bold_96 {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 106%;
+}
+
+.T3_Bold_64 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 106%;
+}
+
+.T4_Bold_48 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 106%;
+}
+
+.T5_SemiBold_48 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: normal;
+}
+
+.T6_Bold_40 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 106%;
+}
+
+.T7_Bold_32 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 106%;
+}
+
+.T8_Bold_86 {
+    font-weight: 700;
+    font-size: 86px;
+    line-height: 106%;
+}
+
+
+
+/* --- Subtitle --- */
+
+.S1_SemiBold_36 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: normal;
+}
+
+.S2_SemiBold_24 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+.S3_Regular_24 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+.S4_SemiBold_20 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.S5_Medium_20 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.S6_Regular_20 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.S7_Light_20 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+
+/* --- Body --- */
+
+.B1_Medium_16 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.B2_Regular_16 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.B3_Medium_14 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.B4_Regular_14 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.B5_Light_14 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.B6_Light_14_Underline {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    text-decoration: underline;
+}
+
+
+.B7_Regular_12 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}

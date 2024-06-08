@@ -1,0 +1,38 @@
+.button {
+    padding: 16px 30px;
+    border-radius: 16px;
+    border: 2px solid transparent;
+    
+    color: var(--grayscale-07);
+    font-family: "Outfit";
+    text-wrap: nowrap;
+    
+    font-weight: 600;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.button--primary {
+    background-color: var(--primary-01);
+    border: 2px solid var(--primary-01);
+}
+
+.button--primary:hover {
+    background-color: var(--grayscale-01);
+    border: 2px solid transparent;
+}
+
+.button--primary:disabled {
+    background-color: var(--grayscale-03);
+    border: 2px solid var(--grayscale-03);
+}
+
+.button--secondary {
+    background-color: var(--primary-01);
+    border: 2px solid var(--primary-01);
+}
+
+.button--secondary:hover {
+    background-color: var(--primary-04);
+    border: 2px solid var(--primary-01);
+}
